@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // TODO: Serve static files of entire client dist folder
-app.use(express.static('../../client/dist'))
+app.use(express.static('../client/dist'))
 // This sends the necessary static files from the server to the user's browser so they can see and interact with your website
 // The user makes a request to the server and this allows the server to send the necessary files like html css and js so they can display it on the users screen
 
